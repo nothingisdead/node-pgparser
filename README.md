@@ -19,7 +19,7 @@ let sql = `
 pgparser(sql).then((parse_tree) => {
     console.log(parse_tree);
 }, (error) => {
-    console.warn(${error.message} near character ${error.cursorpos});
+    console.warn(`${error.message} near character ${error.cursorpos}`);
 });
 ```
 The parse tree for the sample query is below:
