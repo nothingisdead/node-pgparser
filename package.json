@@ -1,0 +1,31 @@
+{
+  "name": "pgparser",
+  "version": "1.0.0",
+  "description": "Parse PostgreSQL statements in plain Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nothingisdead/node-pgparser.git"
+  },
+  "keywords": [
+    "postgre",
+    "postgres",
+    "postgresql",
+    "parse",
+    "parser",
+    "psql",
+    "query"
+  ],
+  "author": "Robert Myers",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nothingisdead/node-pgparser/issues"
+  },
+  "homepage": "https://github.com/nothingisdead/node-pgparser#readme",
+  "devDependencies": {
+    "mocha": "^2.5.3"
+  }
+}
