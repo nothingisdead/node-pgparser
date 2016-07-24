@@ -16,7 +16,7 @@ let sql = `
         users
 `;
 
-pgparser(sql).then((parse_tree) => {
+pgparser.parse(sql).then((parse_tree) => {
     console.log(parse_tree);
 }, (error) => {
     console.warn(`${error.message} near character ${error.cursorpos}`);

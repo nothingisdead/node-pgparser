@@ -1,6 +1,6 @@
 {
   "name": "pgparser",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Parse PostgreSQL statements in plain Javascript",
   "main": "index.js",
   "scripts": {
@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/nothingisdead/node-pgparser/issues"
   },
-  "homepage": "https://github.com/nothingisdead/node-pgparser#readme",
-  "devDependencies": {
-    "mocha": "^2.5.3"
-  }
+  "homepage": "https://github.com/nothingisdead/node-pgparser#readme"
 }
